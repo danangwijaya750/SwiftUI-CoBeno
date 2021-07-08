@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		479D18D12696C50A0046B909 /* Co_BenoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479D18D02696C50A0046B909 /* Co_BenoApp.swift */; };
+		479D18D32696C50A0046B909 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479D18D22696C50A0046B909 /* ContentView.swift */; };
+		479D18D52696C50B0046B909 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 479D18D42696C50B0046B909 /* Assets.xcassets */; };
+		479D18D82696C50B0046B909 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 479D18D72696C50B0046B909 /* Preview Assets.xcassets */; };
+		479D18E32696C50B0046B909 /* Co_BenoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479D18E22696C50B0046B909 /* Co_BenoTests.swift */; };
+		479D18EE2696C50B0046B909 /* Co_BenoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479D18ED2696C50B0046B909 /* Co_BenoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		479D18DF2696C50B0046B909 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 479D18C52696C50A0046B909 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 479D18CC2696C50A0046B909;
+			remoteInfo = "Co-Beno";
+		};
+		479D18EA2696C50B0046B909 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 479D18C52696C50A0046B909 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 479D18CC2696C50A0046B909;
+			remoteInfo = "Co-Beno";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		479D18CD2696C50A0046B909 /* Co-Beno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Co-Beno.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		479D18D02696C50A0046B909 /* Co_BenoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Co_BenoApp.swift; sourceTree = "<group>"; };
+		479D18D22696C50A0046B909 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		479D18D42696C50B0046B909 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		479D18D72696C50B0046B909 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		479D18D92696C50B0046B909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		479D18DE2696C50B0046B909 /* Co-BenoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Co-BenoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		479D18E22696C50B0046B909 /* Co_BenoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Co_BenoTests.swift; sourceTree = "<group>"; };
+		479D18E42696C50B0046B909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		479D18E92696C50B0046B909 /* Co-BenoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Co-BenoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		479D18ED2696C50B0046B909 /* Co_BenoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Co_BenoUITests.swift; sourceTree = "<group>"; };
+		479D18EF2696C50B0046B909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		479D18CA2696C50A0046B909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		479D18DB2696C50B0046B909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		479D18E62696C50B0046B909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		479D18C42696C50A0046B909 = {
+			isa = PBXGroup;
+			children = (
+				479D18CF2696C50A0046B909 /* Co-Beno */,
+				479D18E12696C50B0046B909 /* Co-BenoTests */,
+				479D18EC2696C50B0046B909 /* Co-BenoUITests */,
+				479D18CE2696C50A0046B909 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		479D18CE2696C50A0046B909 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				479D18CD2696C50A0046B909 /* Co-Beno.app */,
+				479D18DE2696C50B0046B909 /* Co-BenoTests.xctest */,
+				479D18E92696C50B0046B909 /* Co-BenoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		479D18CF2696C50A0046B909 /* Co-Beno */ = {
+			isa = PBXGroup;
+			children = (
+				479D18D02696C50A0046B909 /* Co_BenoApp.swift */,
+				479D18D22696C50A0046B909 /* ContentView.swift */,
+				479D18D42696C50B0046B909 /* Assets.xcassets */,
+				479D18D92696C50B0046B909 /* Info.plist */,
+				479D18D62696C50B0046B909 /* Preview Content */,
+			);
+			path = "Co-Beno";
+			sourceTree = "<group>";
+		};
+		479D18D62696C50B0046B909 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				479D18D72696C50B0046B909 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		479D18E12696C50B0046B909 /* Co-BenoTests */ = {
+			isa = PBXGroup;
+			children = (
+				479D18E22696C50B0046B909 /* Co_BenoTests.swift */,
+				479D18E42696C50B0046B909 /* Info.plist */,
+			);
+			path = "Co-BenoTests";
+			sourceTree = "<group>";
+		};
+		479D18EC2696C50B0046B909 /* Co-BenoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				479D18ED2696C50B0046B909 /* Co_BenoUITests.swift */,
+				479D18EF2696C50B0046B909 /* Info.plist */,
+			);
+			path = "Co-BenoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		479D18CC2696C50A0046B909 /* Co-Beno */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 479D18F22696C50B0046B909 /* Build configuration list for PBXNativeTarget "Co-Beno" */;
+			buildPhases = (
+				479D18C92696C50A0046B909 /* Sources */,
+				479D18CA2696C50A0046B909 /* Frameworks */,
+				479D18CB2696C50A0046B909 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Co-Beno";
+			productName = "Co-Beno";
+			productReference = 479D18CD2696C50A0046B909 /* Co-Beno.app */;
+			productType = "com.apple.product-type.application";
+		};
+		479D18DD2696C50B0046B909 /* Co-BenoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 479D18F52696C50B0046B909 /* Build configuration list for PBXNativeTarget "Co-BenoTests" */;
+			buildPhases = (
+				479D18DA2696C50B0046B909 /* Sources */,
+				479D18DB2696C50B0046B909 /* Frameworks */,
+				479D18DC2696C50B0046B909 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				479D18E02696C50B0046B909 /* PBXTargetDependency */,
+			);
+			name = "Co-BenoTests";
+			productName = "Co-BenoTests";
+			productReference = 479D18DE2696C50B0046B909 /* Co-BenoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		479D18E82696C50B0046B909 /* Co-BenoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 479D18F82696C50B0046B909 /* Build configuration list for PBXNativeTarget "Co-BenoUITests" */;
+			buildPhases = (
+				479D18E52696C50B0046B909 /* Sources */,
+				479D18E62696C50B0046B909 /* Frameworks */,
+				479D18E72696C50B0046B909 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				479D18EB2696C50B0046B909 /* PBXTargetDependency */,
+			);
+			name = "Co-BenoUITests";
+			productName = "Co-BenoUITests";
+			productReference = 479D18E92696C50B0046B909 /* Co-BenoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		479D18C52696C50A0046B909 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					479D18CC2696C50A0046B909 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					479D18DD2696C50B0046B909 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 479D18CC2696C50A0046B909;
+					};
+					479D18E82696C50B0046B909 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 479D18CC2696C50A0046B909;
+					};
+				};
+			};
+			buildConfigurationList = 479D18C82696C50A0046B909 /* Build configuration list for PBXProject "Co-Beno" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 479D18C42696C50A0046B909;
+			productRefGroup = 479D18CE2696C50A0046B909 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				479D18CC2696C50A0046B909 /* Co-Beno */,
+				479D18DD2696C50B0046B909 /* Co-BenoTests */,
+				479D18E82696C50B0046B909 /* Co-BenoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		479D18CB2696C50A0046B909 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				479D18D82696C50B0046B909 /* Preview Assets.xcassets in Resources */,
+				479D18D52696C50B0046B909 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		479D18DC2696C50B0046B909 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		479D18E72696C50B0046B909 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		479D18C92696C50A0046B909 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				479D18D32696C50A0046B909 /* ContentView.swift in Sources */,
+				479D18D12696C50A0046B909 /* Co_BenoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		479D18DA2696C50B0046B909 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				479D18E32696C50B0046B909 /* Co_BenoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		479D18E52696C50B0046B909 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				479D18EE2696C50B0046B909 /* Co_BenoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		479D18E02696C50B0046B909 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 479D18CC2696C50A0046B909 /* Co-Beno */;
+			targetProxy = 479D18DF2696C50B0046B909 /* PBXContainerItemProxy */;
+		};
+		479D18EB2696C50B0046B909 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 479D18CC2696C50A0046B909 /* Co-Beno */;
+			targetProxy = 479D18EA2696C50B0046B909 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		479D18F02696C50B0046B909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		479D18F12696C50B0046B909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		479D18F32696C50B0046B909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Co-Beno/Preview Content\"";
+				DEVELOPMENT_TEAM = 2ZQ6VJ65PV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Co-Beno/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dngwjy.Co-Beno";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		479D18F42696C50B0046B909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Co-Beno/Preview Content\"";
+				DEVELOPMENT_TEAM = 2ZQ6VJ65PV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Co-Beno/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dngwjy.Co-Beno";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		479D18F62696C50B0046B909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2ZQ6VJ65PV;
+				INFOPLIST_FILE = "Co-BenoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dngwjy.Co-BenoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Co-Beno.app/Co-Beno";
+			};
+			name = Debug;
+		};
+		479D18F72696C50B0046B909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2ZQ6VJ65PV;
+				INFOPLIST_FILE = "Co-BenoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dngwjy.Co-BenoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Co-Beno.app/Co-Beno";
+			};
+			name = Release;
+		};
+		479D18F92696C50B0046B909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2ZQ6VJ65PV;
+				INFOPLIST_FILE = "Co-BenoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dngwjy.Co-BenoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Co-Beno";
+			};
+			name = Debug;
+		};
+		479D18FA2696C50B0046B909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2ZQ6VJ65PV;
+				INFOPLIST_FILE = "Co-BenoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dngwjy.Co-BenoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Co-Beno";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		479D18C82696C50A0046B909 /* Build configuration list for PBXProject "Co-Beno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				479D18F02696C50B0046B909 /* Debug */,
+				479D18F12696C50B0046B909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		479D18F22696C50B0046B909 /* Build configuration list for PBXNativeTarget "Co-Beno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				479D18F32696C50B0046B909 /* Debug */,
+				479D18F42696C50B0046B909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		479D18F52696C50B0046B909 /* Build configuration list for PBXNativeTarget "Co-BenoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				479D18F62696C50B0046B909 /* Debug */,
+				479D18F72696C50B0046B909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		479D18F82696C50B0046B909 /* Build configuration list for PBXNativeTarget "Co-BenoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				479D18F92696C50B0046B909 /* Debug */,
+				479D18FA2696C50B0046B909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 479D18C52696C50A0046B909 /* Project object */;
+}
