@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,12 @@
 		479D18D82696C50B0046B909 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 479D18D72696C50B0046B909 /* Preview Assets.xcassets */; };
 		479D18E32696C50B0046B909 /* Co_BenoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479D18E22696C50B0046B909 /* Co_BenoTests.swift */; };
 		479D18EE2696C50B0046B909 /* Co_BenoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479D18ED2696C50B0046B909 /* Co_BenoUITests.swift */; };
+		479D18FE2696C7540046B909 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479D18FD2696C7540046B909 /* Response.swift */; };
+		479D19032696CA560046B909 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479D19022696CA560046B909 /* MainView.swift */; };
+		479D19052696CB0A0046B909 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479D19042696CB0A0046B909 /* MainViewModel.swift */; };
+		479D19082696CBB00046B909 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 479D19072696CBB00046B909 /* Alamofire */; };
+		479D190B2696CFCA0046B909 /* SearchBarComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479D190A2696CFCA0046B909 /* SearchBarComponent.swift */; };
+		479D190D2696D00E0046B909 /* ViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479D190C2696D00E0046B909 /* ViewComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,11 @@
 		479D18E92696C50B0046B909 /* Co-BenoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Co-BenoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		479D18ED2696C50B0046B909 /* Co_BenoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Co_BenoUITests.swift; sourceTree = "<group>"; };
 		479D18EF2696C50B0046B909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		479D18FD2696C7540046B909 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		479D19022696CA560046B909 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		479D19042696CB0A0046B909 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		479D190A2696CFCA0046B909 /* SearchBarComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarComponent.swift; sourceTree = "<group>"; };
+		479D190C2696D00E0046B909 /* ViewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				479D19082696CBB00046B909 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,8 +107,9 @@
 		479D18CF2696C50A0046B909 /* Co-Beno */ = {
 			isa = PBXGroup;
 			children = (
+				479D18FC2696C64B0046B909 /* Data */,
+				479D18FB2696C6440046B909 /* UI */,
 				479D18D02696C50A0046B909 /* Co_BenoApp.swift */,
-				479D18D22696C50A0046B909 /* ContentView.swift */,
 				479D18D42696C50B0046B909 /* Assets.xcassets */,
 				479D18D92696C50B0046B909 /* Info.plist */,
 				479D18D62696C50B0046B909 /* Preview Content */,
@@ -130,6 +143,50 @@
 			path = "Co-BenoUITests";
 			sourceTree = "<group>";
 		};
+		479D18FB2696C6440046B909 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				479D19092696CFBC0046B909 /* Component */,
+				479D19012696C9ED0046B909 /* Maps */,
+				479D19002696C9E10046B909 /* Main */,
+				479D18D22696C50A0046B909 /* ContentView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		479D18FC2696C64B0046B909 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				479D18FD2696C7540046B909 /* Response.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		479D19002696C9E10046B909 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				479D19022696CA560046B909 /* MainView.swift */,
+				479D19042696CB0A0046B909 /* MainViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		479D19012696C9ED0046B909 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Maps;
+			sourceTree = "<group>";
+		};
+		479D19092696CFBC0046B909 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				479D190A2696CFCA0046B909 /* SearchBarComponent.swift */,
+				479D190C2696D00E0046B909 /* ViewComponent.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +203,9 @@
 			dependencies = (
 			);
 			name = "Co-Beno";
+			packageProductDependencies = (
+				479D19072696CBB00046B909 /* Alamofire */,
+			);
 			productName = "Co-Beno";
 			productReference = 479D18CD2696C50A0046B909 /* Co-Beno.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +277,9 @@
 				Base,
 			);
 			mainGroup = 479D18C42696C50A0046B909;
+			packageReferences = (
+				479D19062696CBB00046B909 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 479D18CE2696C50A0046B909 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,7 +322,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				479D19052696CB0A0046B909 /* MainViewModel.swift in Sources */,
 				479D18D32696C50A0046B909 /* ContentView.swift in Sources */,
+				479D19032696CA560046B909 /* MainView.swift in Sources */,
+				479D190B2696CFCA0046B909 /* SearchBarComponent.swift in Sources */,
+				479D18FE2696C7540046B909 /* Response.swift in Sources */,
+				479D190D2696D00E0046B909 /* ViewComponent.swift in Sources */,
 				479D18D12696C50A0046B909 /* Co_BenoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -580,6 +648,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		479D19062696CBB00046B909 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		479D19072696CBB00046B909 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 479D19062696CBB00046B909 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 479D18C52696C50A0046B909 /* Project object */;
 }
