@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		478D72F826988485008AEEB3 /* ToastUI in Frameworks */ = {isa = PBXBuildFile; productRef = 478D72F726988485008AEEB3 /* ToastUI */; };
 		479D18D12696C50A0046B909 /* Co_BenoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479D18D02696C50A0046B909 /* Co_BenoApp.swift */; };
 		479D18D32696C50A0046B909 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479D18D22696C50A0046B909 /* ContentView.swift */; };
 		479D18D52696C50B0046B909 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 479D18D42696C50B0046B909 /* Assets.xcassets */; };
@@ -63,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				478D72F826988485008AEEB3 /* ToastUI in Frameworks */,
 				479D19082696CBB00046B909 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,6 +207,7 @@
 			name = "Co-Beno";
 			packageProductDependencies = (
 				479D19072696CBB00046B909 /* Alamofire */,
+				478D72F726988485008AEEB3 /* ToastUI */,
 			);
 			productName = "Co-Beno";
 			productReference = 479D18CD2696C50A0046B909 /* Co-Beno.app */;
@@ -279,6 +282,7 @@
 			mainGroup = 479D18C42696C50A0046B909;
 			packageReferences = (
 				479D19062696CBB00046B909 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				478D72F626988485008AEEB3 /* XCRemoteSwiftPackageReference "ToastUI" */,
 			);
 			productRefGroup = 479D18CE2696C50A0046B909 /* Products */;
 			projectDirPath = "";
@@ -650,6 +654,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		478D72F626988485008AEEB3 /* XCRemoteSwiftPackageReference "ToastUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/quanshousio/ToastUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
 		479D19062696CBB00046B909 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
@@ -661,6 +673,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		478D72F726988485008AEEB3 /* ToastUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 478D72F626988485008AEEB3 /* XCRemoteSwiftPackageReference "ToastUI" */;
+			productName = ToastUI;
+		};
 		479D19072696CBB00046B909 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 479D19062696CBB00046B909 /* XCRemoteSwiftPackageReference "Alamofire" */;
